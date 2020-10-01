@@ -7,6 +7,11 @@ struct Node{
   int subcode;
   Node *next;
   };
+class car{
+  public:
+    int main_part;
+    char* name;
+};
 
 class ML
 
