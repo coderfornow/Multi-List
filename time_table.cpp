@@ -52,19 +52,7 @@ cout<<endl;
 
 }
 
-void ML :: print_ML()
 
-{
-
-for(int i=0;i<6;i++)
-
-{
-
-cout<<"\n printing list number "<<i;
-
-print_given_List(i);
-
-}
 
 }
 
