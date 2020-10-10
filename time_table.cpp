@@ -40,9 +40,9 @@ while (head != NULL)
 
 {
 
-cout <<"slot->"<<head->slot<< ",";
+cout <<"slot->"<<head->slot;
 
-cout <<"subj->" <<head->subcode<< " ";
+cout <<"subj->" <<head->subcode;
 
 head = head->next;
 
