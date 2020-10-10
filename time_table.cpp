@@ -40,9 +40,9 @@ while (head != NULL)
 
 {
 
-cout <<"slot->"<<head->slot<< ",";
+cout <<"slot->"<<head->slot;
 
-cout <<"subj->" <<head->subcode<< " ";
+cout <<"subj->" <<head->subcode;
 
 head = head->next;
 
@@ -133,7 +133,7 @@ if(choice==1)
 
 Node *newnode=new Node;
 
-cout<<"In which listno of multilist do you want to add slot?\n";
+cout<<"where do you want to add slot?\n";
 
 cin>>list_no;
 
